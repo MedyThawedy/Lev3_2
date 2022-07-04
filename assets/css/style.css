@@ -13,6 +13,10 @@ main{
     margin:50px;
 }
 
+main > h3 {
+    margin-left: 97px;
+}
+
 .article-1{
     display: flex;
     flex-wrap:wrap;
@@ -21,7 +25,7 @@ main{
     margin-top: 15px;
 }
 
-.article-1 div{
+.article-1 > div{
     width: 300px;
     height: 200px;
     border: 1px solid lightgray;
@@ -29,9 +33,17 @@ main{
     margin:10px;
 }
 
+.div-header-logo{
+    margin-left: 10px;
+}
+
 .div-header-right a {
     margin-right: 10px;
     padding: 10px;
+}
+
+.div-header-left{
+    margin-left:53px;
 }
 
 .div-header-left a{
@@ -88,33 +100,41 @@ body{
     background: #D9E8E5;
 }
 
-.article-1 div:first-child{
-    background-image: url(https://images.unsplash.com/photo-1565206077212-4eb48d41f54b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+.div1-article-1{
+    background-image: url(../img/ring001.png);
     background-size: cover;
+   
 }
 
 
-.article-1 div:nth-child(2){
-    background-image: url(https://images.unsplash.com/photo-1589674781759-c21c37956a44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+.div2-article-1{
+    background-image: url(../img/ring002.png);
     background-size: cover;
 }
 
-.article-1 div:nth-child(3){
-    background-image: url(https://images.unsplash.com/photo-1606800052052-a08af7148866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+.div3-article-1{
+    background-image: url(../img/ring003.png);
     background-size: cover;
 }
 
-.article-1 div:nth-child(4){
-    background-image: url(https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+.div4-article-1{
+    background-image: url(../img/ring004.png);
     background-size: cover;
 }
 
-.article-1 div:nth-child(5){
-    background-image: url(https://images.unsplash.com/photo-1565206077212-4eb48d41f54b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+.div5-article-1{
+    background-image: url(../img/ring005.png);
     background-size: cover;
 }
 
-.article-1 div:last-child{
-    background-image: url(https://images.unsplash.com/photo-1586104237516-5b7075e00d45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+.div6-article-1{
+    background-image: url(../img/ring006.png);
     background-size: cover;
 }
+
+article > div > .preis-div{
+    padding-left: 82%;
+    padding-top: 59%;
+}
+
+
